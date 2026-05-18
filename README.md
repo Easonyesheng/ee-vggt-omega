@@ -32,7 +32,7 @@ Before using the models, please request access to the checkpoints [here](https:/
 | `VGGT-Omega-1B-512` | 512 | No | [Link](https://huggingface.co/facebook/VGGT-Omega/blob/main/vggt_omega_1b_512.pt) |
 | `VGGT-Omega-1B-256-Text-Alignment` | 256 | Yes | [Link](https://huggingface.co/facebook/VGGT-Omega/blob/main/vggt_omega_1b_256_text.pt) |
 
-The authors are not involved in the review process and cannot approve or reject individual applications. However, the [Hugging Face demo](https://huggingface.co/spaces/facebook/vggt-omega) is available to everyone.
+The authors are not involved in the review process and cannot approve or reject individual applications. However, the [🤗 Hugging Face demo](https://huggingface.co/spaces/facebook/vggt-omega) is available to everyone.
 
 
 ## Quick Start
