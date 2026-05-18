@@ -130,10 +130,13 @@ this code is made available.
 [^release]: This Release is intended to support the open source research community.
 
 ```bibtex
-@inproceedings{wang2026vggtomega,
-  title={VGGT-{$\Omega$}},
-  author={Wang, Jianyuan and Chen, Minghao and Zhang, Shangzhan and Karaev, Nikita and Sch{\"o}nberger, Johannes and Labatut, Patrick and Bojanowski, Piotr and Novotny, David and Vedaldi, Andrea and Rupprecht, Christian},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2026}
+@misc{wang2026vggtomega,
+      title={VGGT-$\Omega$}, 
+      author={Jianyuan Wang and Minghao Chen and Shangzhan Zhang and Nikita Karaev and Johannes Schönberger and Patrick Labatut and Piotr Bojanowski and David Novotny and Andrea Vedaldi and Christian Rupprecht},
+      year={2026},
+      eprint={2605.15195},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.15195}, 
 }
 ```
