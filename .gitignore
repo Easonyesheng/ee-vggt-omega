@@ -16,3 +16,4 @@ skyseg.onnx.tmp
 *.pt
 *.pth
 *.safetensors
+./outputs/

@@ -78,6 +78,17 @@ registers = camera_and_register_tokens[:, :, 1:]
 For the text-aligned checkpoint, use `VGGTOmega(enable_alignment=True)` with `image_resolution=256` and read `predictions["text_alignment_embedding"]`.
 
 
+## Point cloud export (PLY)
+
+Use the helper script to reconstruct a point cloud from a folder of images:
+
+```bash
+python reconstruct_ply.py \
+  --checkpoint path/to/vggt_omega_1b_512.pt \
+  --input-dir path/to/images \
+  --output path/to/scene.ply
+```
+
 ## Interactive Demo
 
 Install the demo dependencies:
