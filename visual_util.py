@@ -155,9 +155,13 @@ def integrate_camera_into_scene(scene: trimesh.Scene, transform: np.ndarray, fac
 
 def apply_scene_alignment(scene: trimesh.Scene, extrinsics: np.ndarray) -> trimesh.Scene:
     opengl_conversion_matrix = get_opengl_conversion_matrix()
+<<<<<<< HEAD
     align_rotation = np.eye(4)
     align_rotation[:3, :3] = Rotation.from_euler("y", 180, degrees=True).as_matrix()
     scene.apply_transform(np.linalg.inv(extrinsics[0]) @ opengl_conversion_matrix @ align_rotation)
+=======
+    scene.apply_transform(np.linalg.inv(extrinsics[0]) @ opengl_conversion_matrix)
+>>>>>>> 54df8b212bda9af3c1b5099ce539bd00f60ff815
     return scene
 
 
