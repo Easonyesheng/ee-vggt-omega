@@ -93,20 +93,27 @@ registers = camera_and_register_tokens[:, :, 1:]
 For the text-aligned checkpoint, use `VGGTOmega(enable_alignment=True)` with `image_resolution=256` and read `predictions["text_alignment_embedding"]`.
 
 
-<<<<<<< HEAD
-## Point cloud export (PLY)
+## Reconstruction export (PLY/COLMAP)
 
-Use the helper script to reconstruct a point cloud from a folder of images:
+Export a point cloud (PLY):
 
 ```bash
 python reconstruct_ply.py \
   --checkpoint path/to/vggt_omega_1b_512.pt \
   --input-dir path/to/images \
+  --output-format ply \
   --output path/to/scene.ply
 ```
 
-=======
->>>>>>> 54df8b212bda9af3c1b5099ce539bd00f60ff815
+Export a COLMAP model:
+
+```bash
+python reconstruct_ply.py \
+  --checkpoint path/to/vggt_omega_1b_512.pt \
+  --input-dir path/to/images \
+  --output-format colmap \
+  --output path/to/colmap_dir
+```
 ## Interactive Demo
 
 Install the demo dependencies:
